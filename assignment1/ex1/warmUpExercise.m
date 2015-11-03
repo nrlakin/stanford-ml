@@ -3,7 +3,6 @@ function A = warmUpExercise()
 %   A = WARMUPEXERCISE() is an example function that returns the 5x5 identity matrix
 
 A = [];
-A=[1 0 0 0 0; 0 1 0 0 0; 0 0 1 0 0; 0 0 0 0 1; 0 0 0 0 1]
-return A
+A = diag(ones(1,5));
 
 end
